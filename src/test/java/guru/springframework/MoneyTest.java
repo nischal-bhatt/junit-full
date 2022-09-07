@@ -15,6 +15,8 @@ public class MoneyTest {
 		assertEquals(36,product.getAmount());
 		product = toTest.times(3);
 		assertEquals(54,product.getAmount());
+		product = toTest.times(10);
+		assertEquals(180,product.getAmount());
 		// now we not mutating the object
 		
 	}
